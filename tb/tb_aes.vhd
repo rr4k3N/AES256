@@ -478,12 +478,12 @@ begin
       clk          => clk,
       rst          => rst,
       data_i       => data_i,
-      valid_i      => valid_i,
+      data_valid_i      => valid_i,
       key_i        => key_i,
-      key_valid    => key_valid,
+      key_valid_i    => key_valid,
       key_ready_o  => key_ready,
-      cyph_valid_o => cyph_valid_o,
-      cyph_data_o  => cyph_data_o
+      ciph_valid_o => cyph_valid_o,
+      ciph_data_o  => cyph_data_o
     );
 
 end architecture testbench;
